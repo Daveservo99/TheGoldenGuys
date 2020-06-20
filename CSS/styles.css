@@ -1,0 +1,149 @@
+/* colors
+#343434
+#e6b313
+#fcfaf1
+#cacaca */
+
+body {
+  background-color: #343434;
+  margin: 0;
+  padding: 0;
+  color: #e6b313;
+  font-size: 1.5rem;
+}
+
+header {
+  font-size: 1rem;
+}
+
+hr {
+  border-top: 4px #e6b313 solid;
+  margin: 4% 0;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#gg-start {
+  color: #e6b313;
+}
+
+/* Start Section */
+
+#start {
+  padding: 10% 0 5%;
+  color: #e6b313;
+  text-align: center;
+}
+
+/* About Us Section */
+
+.matt {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.juston {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.kyle {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.dave {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Schedule Section */
+
+#schedule {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.card {
+  color: #343434;
+  background-color: #e6b313;
+  margin: 0 auto 4% auto;
+}
+
+.card-tittle {
+  padding: 4%;
+  margin: 0;
+}
+
+.card-text {
+  padding-bottom: 4%;
+  margin: 0;
+}
+
+/* Merch Section */
+
+/* Footer Section */
+
+#socials {
+  text-align: center;
+  height: 20vh;
+  padding-top: 5%;
+}
+
+.social-icons {
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #e6b313;
+}
+
+.social-icons:hover {
+  color: #cacaca;
+}
+
+/* Top Links */
+
+.top-links {
+  height: 35px;
+  margin-top: 10px;
+  padding: 0px 10px 0 0;
+  box-sizing: border-box;
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+}
+
+a.twitch-button {
+  position: relative;
+  display: inline-block;
+  margin: 0 3px 0 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+a.twitch-button span.left {
+  background-color: #6441a4;
+  padding: 11px 7px;
+  border-radius: 2px 0 0 2px;
+}
+a.twitch-button span.right {
+  background-color: #4b367c;
+  padding: 11px 7px;
+  border-radius: 0px 2px 2px 0px;
+}
+a.twitch-button:hover span.right {
+  background-color: #14b866;
+}
